@@ -18,3 +18,11 @@ window.addEventListener("DOMContentLoaded", function(event) {
     });
   });
 });
+
+
+const navbar = document.getElementById('navbar');
+const toggleButton = document.querySelector('header span');
+
+toggleButton.addEventListener('click', function() {
+  navbar.classList.toggle('active');
+});
